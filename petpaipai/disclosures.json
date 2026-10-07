@@ -1,0 +1,45 @@
+{
+  "documents": [
+    {
+      "kind": "terms",
+      "version": "draft-en-20261005-input-v2",
+      "title": "Terms of Use",
+      "content": "Review draft — not yet in effect.\n\nThe app helps pet owners create AI images and videos using their own pet profiles and selected templates. Review the selected pet, inputs, settings and credit price before submitting. Confirmed system or provider failures return credits according to the task rules; check the task for its refund status.\n\nEligible new accounts receive 20 credits once. Existing accounts and development accounts do not receive an additional welcome grant. Account tiers control the number of pet profiles and do not automatically include high-resolution output, watermark removal or priority processing.\n\nLaunch language: English. Launch region: Europe and the Americas, with specific countries still to be confirmed. The operator's legal identity, contact details, age requirements, applicable terms and country-specific provisions require review before publication.",
+      "reviewed": false,
+      "sha256": "c7f6744b4c82538861280a50613d3354328bc085d974bcec8ba54958dfa7dc12"
+    },
+    {
+      "kind": "privacy",
+      "version": "draft-en-20261005-input-v2",
+      "title": "Privacy Policy",
+      "content": "Review draft — not yet in effect.\n\nInput photos are used for your pet profiles and the creations you choose to request. The service retains necessary account, task, settings and credit records. Pet profile photos are persistently stored on our server. Temporary photos selected for a creation are held only in memory during submission and are not saved to server files, databases or backups. Unsubmitted temporary photos expire automatically. Deleting a pet profile does not delete all associated input files or remove existing task records. Account deletion is not yet available.\n\nGenerated images and videos are delivered to your local device. Our server does not save generated output files or offer cross-device file recovery. Your generated images, videos, task details and delivery addresses are private to your account and are not displayed to other users. You can choose to share a local result through the system share sheet.\n\nThird-party model providers may temporarily retain submitted inputs and generated outputs under their own terms; our local-output design does not mean those providers retain nothing. Provider retention and processing locations require confirmation. Operator and privacy contact details, applicable privacy rights and request procedures must be finalized before publication.",
+      "reviewed": false,
+      "sha256": "422b9dbd1ccb95abfa03e282e91c78514c7b9efb0341a7b5581a86c9a313d41a"
+    },
+    {
+      "kind": "ai",
+      "version": "draft-en-20261005-input-v2",
+      "title": "AI Generation Disclosure",
+      "content": "Review draft — not yet in effect.\n\nCreations use AI. Appearance, movement and fine details may vary, and results may contain mistakes. Template examples identify source references, concept previews and generated test results separately. An example is not a guarantee of your result.\n\nReview the pet roles, selected photos, permitted settings and price before generation. Waiting times are estimates; task status reflects actual processing. You may leave the app while a task runs. On completion, the app downloads the result to your device; a device download failure is separate from a model-generation failure. A local file cannot be restored from our server if it is lost and the provider's delivery address has expired. Check failed tasks for their credit-refund status.",
+      "reviewed": false,
+      "sha256": "9c46c90aa0da4e7863c7e30c2fd50a04c5ca41fbe2d0363f282a44b17343faaf"
+    },
+    {
+      "kind": "processor",
+      "version": "draft-en-20261005-input-v2",
+      "title": "Third-Party Model Processing",
+      "content": "Review draft — not yet in effect.\n\nThe photos and creation parameters you select are sent to the third-party model used by the template. The current video integration uses Volcengine Ark. Its legal entity, processing countries, input and output retention periods, deletion process and international-transfer terms require confirmation before launch.\n\nThe model's generated result is delivered using a provider address for your device to download. Our server stores necessary delivery metadata but does not download or save the generated image or video file. Delivery addresses may expire. Do not interpret local storage by our app as a statement that the model provider never stores data.",
+      "reviewed": false,
+      "sha256": "e921c80d77a7ad0a60b858aa01c94367baf975b566770459792dc5d42be1d290"
+    },
+    {
+      "kind": "materials",
+      "version": "draft-en-20261005-input-v2",
+      "title": "Material Rights and Photo Permissions",
+      "content": "Review draft — not yet in effect.\n\nUpload only photos, images of people, voices and music that you own or are authorized to use for the intended creation and sharing. Confirm that the target pet is clear and unobstructed and that each selected role uses the intended pet's photo. Automatic photo checks are advisory and do not replace your review.\n\nThe system photo picker gives the app only the items you select; you do not need to grant access to your entire photo library to choose an input. Permission to add a result to Photos is requested when you save it. If you decline, you can still view a downloaded local result or choose system sharing. Sharing happens only when you initiate it. Detailed licensing and country-specific requirements remain subject to review.",
+      "reviewed": false,
+      "sha256": "26479579b82835815da534acf775732d51eeba6072bd9ef59c1419fd42679c4e"
+    }
+  ],
+  "ready": false
+}
