@@ -1,4 +1,4 @@
-# Real Men: Down 100 — public information
+# GritDive: 100 Floors — public information
 
 Published by rensihao. Contact: rensihao812@gmail.com.
 
