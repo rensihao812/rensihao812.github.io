@@ -15,7 +15,7 @@
 <p class="meta">Effective November 8, 2026 · Bear Guardian for iOS</p>
 <p class="summary">Local progress. Sharing by choice. No account required for offline gameplay.</p>
     <section><h2>Playing without an account</h2>
-      <p>Bear Guardian (小熊守護夜) is an iPhone game published by LI CHUJIAN. Core gameplay works offline and requires no account. The current app does not send gameplay records, stars, cosmetic selections or achievement progress to a server operated by the publisher.</p>
+      <p>Bear Guardian (小熊守護夜) is an iPhone game published by LI CHUJIAN. Core gameplay works offline and requires no account. Progress is stored locally. Optional gameplay analytics is off by default and is processed by Google Firebase only if you enable it; feedback is sent only when you submit a form or email.</p>
     </section>
     <section><h2>Data stored on your device</h2>
       <p>The app saves your best score and completed-wave record, star balance, cosmetic unlocks and selections, achievement progress and claimed rewards, language choice, and sound/vibration preference on your device. These records let you keep your progress and settings between sessions. There is no developer account, cloud-save service or online leaderboard in the current app.</p>
@@ -29,8 +29,17 @@
       <p>If you choose Save Image in the system share sheet, iOS may ask for permission to add the selected card to your photo library. This is used only to save that card. The game does not read, browse or upload your existing photos. You can manage photo permissions in iOS Settings. Saving a card through Files is handled by the system destination you choose.</p>
       <p>The current game does not request contacts, camera, microphone, location-services, notifications or App Tracking Transparency access.</p>
     </section>
+    <section><h2>Optional gameplay analytics</h2>
+      <p>Analytics is off by default. At first launch you can allow or decline it, and change the choice under Settings &amp; feedback at any time. Declining does not limit gameplay or feedback. If enabled, Google Analytics for Firebase processes a random installation identifier, an SDK app-instance identifier, device and app information (such as model, operating system, language and version), lifecycle/session events, and gameplay events including run starts and ends, active play time, reached/completed waves, score, collected stars, bosses, rescued rabbits and perfect defenses. Dates and time-zone offsets help summarize play by day. No feedback text or cosmetic ownership is attached to analytics.</p>
+      <p>Google may derive an approximate location from masked IP addresses; we do not request device location access. These statistics are associated with pseudonymous installation identifiers, not an account name or email. We use FirebaseAnalyticsCore without advertising-ID support, disable IDFV collection and advertising consent, and do not link advertising services or use these events for cross-app advertising tracking.</p>
+      <p>Turning analytics off stops subsequent collection, resets the SDK’s local analytics data and removes the local analytics identifier and pending run checkpoint. Re-enabling begins with a new identifier and does not resume a run that began before consent. Already transmitted data is not deleted by this switch and follows Google Analytics retention and deletion settings. Contact us for privacy requests; we may be unable to identify a specific historical installation after its local identifier has been removed. See <a href="https://firebase.google.com/support/privacy">Firebase privacy and security</a> and <a href="https://policies.google.com/privacy">Google’s privacy policy</a>.</p>
+    </section>
+    <section><h2>Optional feedback form</h2>
+      <p>Settings &amp; feedback can open a separate Google Forms page. The form asks for a feedback type and description. No email address or Google sign-in is required; responses and summaries are not public. The app does not automatically attach game records, analytics identifiers or files. You decide what to enter and must press Submit on the form to send it; closing the browser does not mean feedback was sent.</p>
+      <p>Google processes browser/connection information and any content you submit under its own privacy policy. The publisher can read submitted feedback and uses it to investigate issues and improve the game. Please omit passwords, payment details and unnecessary personal information. Feedback is independent of analytics consent. If you contact us by email, your address and any attachments you choose to send are received as described below.</p>
+    </section>
     <section><h2>Advertising, analytics and payments</h2>
-      <p>The current app has no advertising, gameplay-analytics SDK, developer-operated crash-reporting service or in-app purchases. Stars are earned through gameplay and achievement rewards; they are not purchased with money. The publisher does not sell player information or use the app for cross-app advertising tracking.</p>
+      <p>The current app has no advertising, developer-operated crash-reporting service or in-app purchases. Stars are earned through gameplay and achievement rewards; they are not purchased with money. The publisher does not sell player information or use the app for cross-app advertising tracking.</p>
       <p>Apple may process information when providing the App Store, TestFlight, device backups or optional diagnostics under its own settings and <a href="https://www.apple.com/legal/privacy/">privacy policy</a>. These platform services are separate from the game’s local records.</p>
     </section>
     <section><h2>This website and external links</h2>
@@ -41,7 +50,7 @@
       <p>To ask a privacy question or request access, correction or deletion of support information you have sent us, contact <a href="mailto:lichujian812@gmail.com">lichujian812@gmail.com</a>. Requests about local game records must be handled on the device. The game does not ask for a player’s age or identity; a parent or guardian may contact us about personal information a child has sent through support.</p>
     </section>
     <section><h2>Policy updates</h2>
-      <p>We will update this page and its effective date if the app’s features or data practices change. This policy describes the current app, including its locally saved progress and optional sharing features.</p>
+      <p>We will update this page and its effective date if the app’s features or data practices change. This policy describes the current app, including local progress, optional analytics, feedback and sharing features.</p>
     </section>
   </main>
   <footer>Published by LI CHUJIAN · <a href="mailto:lichujian812@gmail.com">lichujian812@gmail.com</a></footer>
